@@ -79,21 +79,20 @@ providers, more cash flow to invest in creating utilization management and quali
     st.write("""In *Professional Services Capitation*, a physician organization receives capitation payments only for all services of health care professionals; the payor and contracted physician organization usually have shared risk for institutional services (such as those delivered by a hospital, a nursing home, outpatient surgical facilities, or home health). The payor pays the PMPM amount for professional services to the physician organization directly and sets aside the agreed-upon PMPM amount for institutional services in a risk pool. The payor pays hospitals and other facilities for the services they provide and divides any money left in the pool with the physician organization. If there is a shortfall in pool funds, the physician organization and payor share that liability as well(Foote , 1998).The physician organization could be a multispeciality group or might be a primary care group manages risk through contracting with specialists. Specialty managed care contracting requires all parties to understand their role in managing care, as well as carve-out and subcapitation agreements. The same way, specialists that are contracting or recieving subcapitation need to know their referral sources, their costs for providing care, and how to provide care that meets their referral sources' needs and the payers' requirements, capitated entity needs to understand the 'leakage' out of speciality network as well as service area, cost of specialist services and procedures and as well as opportunitues to manage utilization, improve quality, patient satisfaction (Alexander 1999).""")
 
     st.write("""In *Primary Care Capitation*, groups receive capitation for primary care services only as agreed upon based on CPT/HCPCS codes. For example, in CMS Direct Contracting Model Global and Professional Options following class of services are considered for capitation.""")
-    st.write("""-Administration of HRA
--Office or Other Outpatient Services
--Domiciliary, Rest Home, or Custodial Care Services
--Professional Services Provided in a Non-Skilled Nursing Facility
--Domiciliary, Rest Home, or Home Care Plan Oversight Services
--Home Services
--Prolonged Care for Outpatient Visit
--Telephone Visits – Online Digital or Audio Only
--Chronic Care Management (CCM) Services
--Behavioral Health Integration (BHI) Services
--Transitional Care Management Services
--Advance Care Planning
--Wellness Visits
--Depression and Alcohol Misuse
-
+    st.write("""-Administration of Health Risk Assessment""")
+    st.write("""-Office or Other Outpatient Services""")
+    st.write("""-Domiciliary, Rest Home, or Custodial Care Services""")
+    st.write("""-Professional Services Provided in a Non-Skilled Nursing Facility""")
+    st.write("""-Domiciliary, Rest Home, or Home Care Plan Oversight Services""")
+    st.write("""-Home Services""")
+    st.write("""-Prolonged Care for Outpatient Visit""")
+    st.write("""-Telephone Visits – Online Digital or Audio Only""")
+    st.write("""-Chronic Care Management (CCM) Services""")
+    st.write("""-Behavioral Health Integration (BHI) Services""")
+    st.write("""-Transitional Care Management Services""")
+    st.write("""-Advance Care Planning""")
+    st.write("""-Wellness Visits""")
+    st.write("""-Depression and Alcohol Misuse
 Source:[Direct Contracting Model Global and Professional Options Financial Operating Policies: Capitation and Advanced Payment Mechanisms](https://github.com/mangospace/understanding_risk/blob/536d07979a2382fb150fae1b683275622a12a32a/CapitationAdvPayMechanisms-pages-21-23.pdf)""")
 
 	
