@@ -15,33 +15,6 @@ ref_container = st.container()
 
 st.sidebar.header("""Managed Care Activities""")
 
-st.sidebar.write("""Admin and Network Management""")
-st.sidebar.markdown("-Claims Administration")
-st.sidebar.markdown("-Compliance Management")
-st.sidebar.markdown("-Credentialing")
-st.sidebar.markdown("-Delegated Oversight Management")
-st.sidebar.markdown("-Quality")
-
-st.sidebar.markdown("Financial Management")
-st.sidebar.markdown("-Actuarial Services & Financial Reporting")
-
-
-st.sidebar.markdown("Provider Member Services")
-st.sidebar.markdown("-Contract Management")
-st.sidebar.markdown("-Provider Relations")
-st.sidebar.markdown("-Practices Liaison")
-
-st.sidebar.markdown("Care Management & Population Health")
-st.sidebar.markdown("-Embedded Care Management")
-st.sidebar.markdown("-Remote Care Management")
-st.sidebar.markdown("-Specialty Program Optimization")
-st.sidebar.markdown("-Behavioral Health")
-st.sidebar.markdown("-Clinical Pharmacy")
-st.sidebar.markdown("-Care Model and Guidelines")
-st.sidebar.markdown("-Quality Program Design")
-st.sidebar.markdown("-Utilization Management")
-st.sidebar.markdown("-Member and Provider Services/Call Center")
-
 
 with header_container:
 	# for example a logo or a image that looks like a website header
@@ -52,14 +25,13 @@ with header_container:
 
 with main_container:
     st.subheader("What is risk?")
-    st.write("""
-In this document, I will be focussing on elements of risk relevant to Value Based Care and therefore, risk would mean financial risk with respect to health insurance premiums. Two dimensions are of particular relevance to this discussion of financial risk: (1) objective risk and (2) subjective risk. Objective risk is when the risk inherent in an uncertain outcome is known. For example, the flip of a coin has only objective risk. It is uncertain whether the flip will result in a head or a tail, so the flip is risky, but the probability of flipping a head or tail, 50 percent, is known. Probability of a 65 year old male needing a coronary artery bypass (and its associated costs) are an example of objective risk. Subjective risk occurs when the probability distribution itself is uncertain. For example, a particular weather forecaster may predict that the chance of rain is 20 percent, but different forecasters may attach different probabilities to the event. This occurs with events that are rare with respect to attribution size (e.g. Covid, Transplant related costs). Managing objective risk is a key activity of health insurance organizations and when provider organizations accept risk. This requires provider organizations to develop and use tools such as Utilization Management, Disease Management/Care Management,Risk Management while also maintaining necessary financial reserves to cover the subjective risks assumed by insurance companies.""")
+    st.write("""In this document, I will be focussing on elements of risk relevant to Value Based Care and therefore, risk would mean financial risk with respect to health insurance premiums. Two dimensions are of particular relevance to this discussion of financial risk: (1) objective risk and (2) subjective risk. Objective risk is when the risk inherent in an uncertain outcome is known. For example, the flip of a coin has only objective risk. It is uncertain whether the flip will result in a head or a tail, so the flip is risky, but the probability of flipping a head or tail, 50 percent, is known. Probability of a 65 year old male needing a coronary artery bypass (and its associated costs) are an example of objective risk. Subjective risk occurs when the probability distribution itself is uncertain. For example, a particular weather forecaster may predict that the chance of rain is 20 percent, but different forecasters may attach different probabilities to the event. This occurs with events that are rare with respect to attribution size (e.g. Covid, Transplant related costs). Managing objective risk is a key activity of health insurance organizations and when provider organizations accept risk. This requires provider organizations to develop and use tools such as Utilization Management, Disease Management/Care Management,Risk Management while also maintaining necessary financial reserves to cover the subjective risks assumed by insurance companies.""")
 
     st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/VBC-fig2.webp', caption='Continiuum of premium risk born by providers')
     st.write("""Providers and provider organizations bear financial risk (with respect to insurance premiums) on continiuum. Providers can start at one part of continum and might move to different part of continuum by contracting with different payers. Sometimes providers could be contracting with same payor on different arrangements e.g. organizations might be in a Medicare Shared Savings ACO while also participating in a bundled program.""")
 
     st.subheader("Why providers consider risk?")
-    st.write("""Providers and provider organizations consider risk for diverse reasons. However, the commonly offered reasons are""")
+    st.write("""Providers and provider organizations consider accepting 'risk' for diverse reasons. However, the commonly offered reasons are""")
     st.write("""
 1. Maintain and/or grow their members, services, fees, and/or revenue
 2. Manage or reduce their operating expenses (internal efficiency, consolidation,etc.)
@@ -70,16 +42,20 @@ In this document, I will be focussing on elements of risk relevant to Value Base
     st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/6244ab9551507d05fe2258a7_1_KIQCFFsov3yyTptNdVjkRQ.jpeg', caption='Financial reason why providers consider risk models Source: Caliri (2020)')
 
     st.subheader("Types of Risk Arrangements")
+    st.markdown(dfdfd [services]('https://raw.githubusercontent.com/mangospace/understanding_risk/main/Screenshot%202022-09-28%20161436.jpg'), unsafe_allow_html=True)
     st.write("""Risk arrangements typically fall into one of three categories: primary care capitation, professional services capitation, and global, or full-risk, capitation. Organizations bearing capitation can contractually 'distribute' risk e.g. institutional subcapitation or specialist subcapitation.""")
-    st.write("""In *Global Capitation*, a payor passes to a provider organization all or most of the amount of the premium dollar allocated to pay for physician services, including hospital, skilled nursing facility, and home health, and for ancillary services, including laboratory and ambulance, durable medical equipment, and sometimes a part of pharmaceutical costs. Full risk capitation gives a medical group control over approximately 80% of the premium dollar, more leverage in negotiating contracts with hospitals, specialists, and ancillary service
+    st.markdown("""In *Global Capitation*, a payor passes to a provider organization all or most of the amount of the premium dollar allocated to pay for physician services, including hospital, skilled nursing facility, and home health, and for ancillary services, including laboratory and ambulance, durable medical equipment, and sometimes a part of pharmaceutical costs. Full risk capitation gives a medical group control over approximately 80% of the premium dollar, more leverage in negotiating contracts with hospitals, specialists, and ancillary service
 providers, more cash flow to invest in creating utilization management and quality improvement systems, the opportunity to retain all the profit from savings these systems generate, the opportunity to develop wider expertise in managing care, and the opportunity to better coordinate care and to allocate dollars where they will have the most impact on patients’ health. As organizations accept this risk (and premium), payors can delegate/accompany this risk transfer some services to the capitated group to offset/manage risk e.g. Utilization Management and Care Management. In this process, the physician organizations generally uses its own standards of care and treatment guidelines, approved by the payors but not dictated by them, to assure consistency and appropriateness in patient treatment. This is attractive to providers having consistent processes, guidelines if they are delegated by multiple payors covering most of their panel/patients. Depending on provider and payor experience and sophistication, payors might retain some elements of managed care services e.g. Credentialing, Claims payment, Network, Appeals, Contracting, Marketing (see sidebar). Depending on the size and stage of maturity, payor might even retain some elements deemed less critical for managing risk e.g. Credentialing or Utilziation of Home Health/DME. In California, only an organization with a special state license (known as a limited Knox-Keene license) is permitted to assume global risk for both professional and institutional services in California. In CMS Direct Contracting Global Model/Total Care Capitation (TCC), the capitated entities are capitated for any eligible Part A and Part B service provided to an attributed beneficiaries with certain exceptions (e.g., claims that contain any substance abuse service or claims from beneficiaries who have opted out of data sharing will not be included).""")
 
     st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/Example%20of%20risk%20contract%20between%20a%20provider%20and%20payor.jpg', caption='Early example of a risk contract')
              
     st.write("""In *Professional Services Capitation*, a physician organization receives capitation payments only for all services of health care professionals; the payor and contracted physician organization usually have shared risk for institutional services (such as those delivered by a hospital, a nursing home, outpatient surgical facilities, or home health). The payor pays the PMPM amount for professional services to the physician organization directly and sets aside the agreed-upon PMPM amount for institutional services in a risk pool. The payor pays hospitals and other facilities for the services they provide and divides any money left in the pool with the physician organization. If there is a shortfall in pool funds, the physician organization and payor share that liability as well(Foote , 1998).The physician organization could be a multispeciality group or might be a primary care group manages risk through contracting with specialists. Specialty managed care contracting requires all parties to understand their role in managing care, as well as carve-out and subcapitation agreements. The same way, specialists that are contracting or recieving subcapitation need to know their referral sources, their costs for providing care, and how to provide care that meets their referral sources' needs and the payers' requirements, capitated entity needs to understand the 'leakage' out of speciality network as well as service area, cost of specialist services and procedures and as well as opportunitues to manage utilization, improve quality, patient satisfaction (Alexander 1999).""")
 
-    st.write("""In *Primary Care Capitation*, groups receive capitation for primary care services only as agreed upon based on CPT/HCPCS codes. For example, in CMS Direct Contracting Model Global and Professional Options following class of services are considered for capitation.""")
-    st.write("""-Administration of Health Risk Assessment""")
+    st.write("""In *Primary Care Capitation*, groups receive capitation for primary care services only as agreed upon based on CPT/HCPCS codes.""")
+    st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/Screenshot%202022-09-28%20160743.jpg', caption='Services considered for capitation in CMS Direct Contracting Model:Primary Care Capitation')
+
+	
+	st.write("""-Administration of Health Risk Assessment""")
     st.write("""-Office or Other Outpatient Services""")
     st.write("""-Domiciliary, Rest Home, or Custodial Care Services""")
     st.write("""-Professional Services Provided in a Non-Skilled Nursing Facility""")
