@@ -19,7 +19,6 @@ with header_container:
     st.title("Understanding Clinical Risk in Value Based Arrangements")
     st.subheader("I welcome comments, feedback and opportunity to learn more or collaborate. Tweet @manas8u")
 
-
 with main_container:
     st.subheader("What is risk?")
     st.write("""In this document, I will be focussing on elements of risk relevant to Value Based Care and therefore, risk would mean financial risk with respect to health insurance premiums. Two dimensions are of particular relevance to this discussion of financial risk: (1) objective risk and (2) subjective risk. Objective risk is when the risk inherent in an uncertain outcome is known. For example, the flip of a coin has only objective risk. It is uncertain whether the flip will result in a head or a tail, so the flip is risky, but the probability of flipping a head or tail, 50 percent, is known. Probability of a 65 year old male needing a coronary artery bypass (and its associated costs) are an example of objective risk. Subjective risk occurs when the probability distribution itself is uncertain. For example, a particular weather forecaster may predict that the chance of rain is 20 percent, but different forecasters may attach different probabilities to the event. This occurs with events that are rare with respect to attribution size (e.g. Covid, Transplant related costs). Managing objective risk is a key activity of health insurance organizations and when provider organizations accept risk. This requires provider organizations to develop and use tools such as Utilization Management, Disease Management/Care Management,Risk Management while also maintaining necessary financial reserves to cover the subjective risks assumed by insurance companies.""")
@@ -31,10 +30,9 @@ with main_container:
     st.write("""Providers and provider organizations consider accepting 'risk' for diverse reasons. However, the commonly offered reasons are""")
     st.write("""
 1. Maintain and/or grow their members, services, fees, and/or revenue
-2. Manage or reduce their operating expenses (internal efficiency, consolidation,etc.)
-3. Control their time and workload
-4. Maintain and/or grow their net income (earnings) – which is their primary financial goal
-5. Reduce wasted services across the entire system 
+2. Manage, transform or reduce their operating expenses (internal efficiency, consolidation,etc.)
+3. Maintain and/or grow their net income (earnings) – which is their primary financial goal
+4. Reduce wasted services across the entire system 
 """)
     st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/6244ab9551507d05fe2258a7_1_KIQCFFsov3yyTptNdVjkRQ.jpeg', caption='Financial reason why providers consider risk models Source: Caliri (2020)')
 
@@ -51,6 +49,8 @@ providers, more cash flow to invest in creating utilization management and quali
     st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/Screenshot%202022-09-28%20160743.jpg', caption='Services considered for capitation in CMS Direct Contracting Model:Primary Care Capitation')
     st.write("Source:[Direct Contracting Model Global and Professional Options Financial Operating Policies: Capitation and Advanced Payment Mechanisms](https://github.com/mangospace/understanding_risk/blob/536d07979a2382fb150fae1b683275622a12a32a/CapitationAdvPayMechanisms-pages-21-23.pdf)")
 
+    st.subheader("Operationalizing Risk in Provider setting")
+    st.write("""Without workflows, accountability and accompanying change in incentives/compensation, care and performance within/by capitated provider organizations might not be different that payors. Leading capitated organizations intentionally and incrementally build models of cares to improve utilziation and quality of care (Hansen 2016)""")
 	
     st.subheader("Risk Corridors")
     st.write("""Risk corridors cap the shared savings/losses based on “risk bands” in a capitated agreement meaning that greater deviance from the Performance Year Benchmark will move the capitated entity to the next risk band, resulting in a lower percentage of shared savings/losses for experience within the higher band. For example, a DCE in the Professional Option would experience 50% of savings and losses within 5% of the benchmark, but would be exposed to only 35% of losses more than 5% above the benchmark (up to 10%, where another band with still-lower exposure would begin.""")
@@ -67,6 +67,7 @@ with ref_container:
     st.write('Foote SM, Sprague L Physician Organizations Assuming Risk: Market and Policy Implications Issue Brief, No. 727 Washington (DC): National Health Policy Forum; 1998 Nov 9.')    
     st.write("Vigen GJ,Wernicke MD, Edward M, Pudlowski EM Value-Based Care through Physician Groups An Actuarial Business Perspective (2020) https://www.ccactuaries.org/docs/default-source/papers/physician-based-care-(august-2020).pdf?sfvrsn=bfd42889_5") 
     st.write("Caliri S, Why you should build in primary care: a layman’s guide to risk delegation (2020) https://www.8vc.com/resources/why-you-should-build-in-primary-care-a-laymans-guide-to-risk-delegation")
+    st.write("Hansen S, Stewart D Managing Cost of Care: Lessons from Successful Organizations (2016) https://www.chcf.org/publication/managing-cost-of-care-lessons-from-successful-organizations/")
     st.write("Alexander JM Managed care contracting for specialists Healthc Financ Manage 1999;Suppl:6-10.")
     st.write("Norris C, Jensen B, Grzeskowiak D Direct Contracting: A program summary and comparison with MSSP and NGACO (2020) https://us.milliman.com/-/media/milliman/pdfs/articles/direct_contracting_a_program_summary_and_comparison_with_mssp_and_ngaco.ashx")
 
