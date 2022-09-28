@@ -51,7 +51,14 @@ providers, more cash flow to invest in creating utilization management and quali
 
     st.subheader("Operationalizing Risk in Provider setting")
     st.write("""Without workflows and change in incentives/compensation, care and performance within/by capitated provider organizations might not be different that payors. Leading capitated organizations intentionally and incrementally build models of care to improve utilization and quality of care (Hansen 2016).""")
-	
+
+    st.subheader("Unique organizations/arrangements in Medicaid/Mental Health")
+    st.write("""Among Medicaid program, some states make capitated payments directly to mental health provider agencies, such as community mental health centers while other states pay an intermediary agency such as a managed behavioral health organization (MBHO) or a health maintenance organization (HMO).""") 
+
+    st.subheader("Risk of Capitation")
+    st.write("""The risks of capitation are undertreatment, substitution of inadequate mental health services, cost shifting to other service systems, and poorer treatment outcomes resulting from financial risks and incentives placed on the contract agency (Mechanic and Aiken 1989).")
+		
+		
     st.subheader("Risk Corridors")
     st.write("""Risk corridors cap the shared savings/losses based on “risk bands” in a capitated agreement meaning that greater deviance from the Performance Year Benchmark will move the capitated entity to the next risk band, resulting in a lower percentage of shared savings/losses for experience within the higher band. For example, a DCE in the Professional Option would experience 50% of savings and losses within 5% of the benchmark, but would be exposed to only 35% of losses more than 5% above the benchmark (up to 10%, where another band with still-lower exposure would begin.""")
     st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/risk%20corridors.jpg', caption='Example of risk corridors in CMS Direct Contracting Source: Norris, 2020')
@@ -70,6 +77,7 @@ with ref_container:
     st.write("Hansen S, Stewart D Managing Cost of Care: Lessons from Successful Organizations (2016) https://www.chcf.org/publication/managing-cost-of-care-lessons-from-successful-organizations/")
     st.write("Alexander JM Managed care contracting for specialists Healthc Financ Manage 1999;Suppl:6-10.")
     st.write("Norris C, Jensen B, Grzeskowiak D Direct Contracting: A program summary and comparison with MSSP and NGACO (2020) https://us.milliman.com/-/media/milliman/pdfs/articles/direct_contracting_a_program_summary_and_comparison_with_mssp_and_ngaco.ashx")
+    st.write("Mechanic D, Aiken L. “Capitation in Mental Health: Potentials and Cautions.” In: Mechanic D, Aiken LH, editors. Paying for Services: Promises and Pitfalls of Capitation. San Francisco: Jossey-Bass Publishers; 1989.")
 
 
 
