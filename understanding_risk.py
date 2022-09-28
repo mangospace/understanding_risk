@@ -50,7 +50,7 @@ providers, more cash flow to invest in creating utilization management and quali
     st.write("Source:[Direct Contracting Model Global and Professional Options Financial Operating Policies: Capitation and Advanced Payment Mechanisms](https://github.com/mangospace/understanding_risk/blob/536d07979a2382fb150fae1b683275622a12a32a/CapitationAdvPayMechanisms-pages-21-23.pdf)")
 
     st.subheader("Operationalizing Risk in Provider setting")
-    st.write("""Without workflows, accountability and accompanying change in incentives/compensation, care and performance within/by capitated provider organizations might not be different that payors. Leading capitated organizations intentionally and incrementally build models of cares to improve utilziation and quality of care (Hansen 2016)""")
+    st.write("""Without workflows and change in incentives/compensation, care and performance within/by capitated provider organizations might not be different that payors. Leading capitated organizations intentionally and incrementally build models of care to improve utilization and quality of care (Hansen 2016).""")
 	
     st.subheader("Risk Corridors")
     st.write("""Risk corridors cap the shared savings/losses based on “risk bands” in a capitated agreement meaning that greater deviance from the Performance Year Benchmark will move the capitated entity to the next risk band, resulting in a lower percentage of shared savings/losses for experience within the higher band. For example, a DCE in the Professional Option would experience 50% of savings and losses within 5% of the benchmark, but would be exposed to only 35% of losses more than 5% above the benchmark (up to 10%, where another band with still-lower exposure would begin.""")
