@@ -53,23 +53,7 @@ providers, more cash flow to invest in creating utilization management and quali
 
     st.write("""In *Primary Care Capitation*, groups receive capitation for primary care services only as agreed upon based on CPT/HCPCS codes.""")
     st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/Screenshot%202022-09-28%20160743.jpg', caption='Services considered for capitation in CMS Direct Contracting Model:Primary Care Capitation')
-
-	
-	st.write("""-Administration of Health Risk Assessment""")
-    st.write("""-Office or Other Outpatient Services""")
-    st.write("""-Domiciliary, Rest Home, or Custodial Care Services""")
-    st.write("""-Professional Services Provided in a Non-Skilled Nursing Facility""")
-    st.write("""-Domiciliary, Rest Home, or Home Care Plan Oversight Services""")
-    st.write("""-Home Services""")
-    st.write("""-Prolonged Care for Outpatient Visit""")
-    st.write("""-Telephone Visits – Online Digital or Audio Only""")
-    st.write("""-Chronic Care Management (CCM) Services""")
-    st.write("""-Behavioral Health Integration (BHI) Services""")
-    st.write("""-Transitional Care Management Services""")
-    st.write("""-Advance Care Planning""")
-    st.write("""-Wellness Visits""")
-    st.write("""-Depression and Alcohol Misuse
-Source:[Direct Contracting Model Global and Professional Options Financial Operating Policies: Capitation and Advanced Payment Mechanisms](https://github.com/mangospace/understanding_risk/blob/536d07979a2382fb150fae1b683275622a12a32a/CapitationAdvPayMechanisms-pages-21-23.pdf)""")
+    st.write("Source:[Direct Contracting Model Global and Professional Options Financial Operating Policies: Capitation and Advanced Payment Mechanisms](https://github.com/mangospace/understanding_risk/blob/536d07979a2382fb150fae1b683275622a12a32a/CapitationAdvPayMechanisms-pages-21-23.pdf)")
 
 	
     st.subheader("Risk Corridors")
