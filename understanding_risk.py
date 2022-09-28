@@ -16,12 +16,12 @@ ref_container = st.container()
 st.sidebar.header("""Managed Care Activities""")
 
 st.sidebar.write("""
-Admin and Network Management
--Claims Administration
--Compliance Management
--Credentialing
--Delegated Oversight Management
--Quality 
+Admin and Network Management""")
+st.sidebar.markdown("-Claims Administration")
+st.sidebar.markdown("-Compliance Management")
+st.sidebar.markdown("-Credentialing")
+st.sidebar.markdown("-Delegated Oversight Management")
+st.sidebar.markdown("-Quality")
 
 Financial Management
 -Actuarial Services & Financial Reporting 
