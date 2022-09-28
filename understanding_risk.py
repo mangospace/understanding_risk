@@ -15,35 +15,32 @@ ref_container = st.container()
 
 st.sidebar.header("""Managed Care Activities""")
 
-st.sidebar.write("""
-Admin and Network Management""")
+st.sidebar.write("""Admin and Network Management""")
 st.sidebar.markdown("-Claims Administration")
 st.sidebar.markdown("-Compliance Management")
 st.sidebar.markdown("-Credentialing")
 st.sidebar.markdown("-Delegated Oversight Management")
 st.sidebar.markdown("-Quality")
 
-Financial Management
--Actuarial Services & Financial Reporting 
+st.sidebar.markdown("Financial Management")
+st.sidebar.markdown("-Actuarial Services & Financial Reporting")
 
 
-Provider Member Services
--Contract Management
--Provider Relations
--Practices Liaison
+st.sidebar.markdown("Provider Member Services")
+st.sidebar.markdown("-Contract Management")
+st.sidebar.markdown("-Provider Relations")
+st.sidebar.markdown("-Practices Liaison")
 
-Care Management & Population Health
--Embedded Care Management
--Remote Care Management
--Specialty Program Optimization
--Behavioral Health
--Clinical Pharmacy
--Care Model and Guidelines
--Quality Program Design
--Utilization Management 
--Member and Provider Services/Call Center
-
-""")
+st.sidebar.markdown("Care Management & Population Health")
+st.sidebar.markdown("-Embedded Care Management")
+st.sidebar.markdown("-Remote Care Management")
+st.sidebar.markdown("-Specialty Program Optimization")
+st.sidebar.markdown("-Behavioral Health")
+st.sidebar.markdown("-Clinical Pharmacy")
+st.sidebar.markdown("-Care Model and Guidelines")
+st.sidebar.markdown("-Quality Program Design")
+st.sidebar.markdown("-Utilization Management")
+st.sidebar.markdown("-Member and Provider Services/Call Center")
 
 
 with header_container:
