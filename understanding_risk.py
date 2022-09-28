@@ -53,20 +53,19 @@ providers, more cash flow to invest in creating utilization management and quali
     st.write("""Without workflows and change in incentives/compensation, care and performance within/by capitated provider organizations might not be different that payors. Leading capitated organizations intentionally and incrementally build models of care to improve utilization and quality of care (Hansen 2016).""")
 
     st.subheader("Risk of Capitation")
-    st.write("""The risks of capitation are undertreatment, substitution of inadequate mental health services, cost shifting to other service systems, and poorer treatment outcomes resulting from financial risks and incentives placed on the contract agency (Mechanic and Aiken 1989).")
-		
-		
+    st.write("""The risks of capitation are undertreatment, substitution of inadequate mental health services, cost shifting to other service systems, and poorer treatment outcomes resulting from financial risks and incentives placed on the contract agency (Mechanic and Aiken 1989).""")
+				
     st.subheader("Risk Corridors")
-    st.write("""Risk corridors cap the shared savings/losses based on “risk bands” in a capitated agreement meaning that greater deviance from the Performance Year Benchmark will move the capitated entity to the next risk band, resulting in a lower percentage of shared savings/losses for experience within the higher band. For example, a DCE in the Professional Option would experience 50% of savings and losses within 5% of the benchmark, but would be exposed to only 35% of losses more than 5% above the benchmark (up to 10%, where another band with still-lower exposure would begin.""")
+    st.write("Risk corridors cap the shared savings/losses based on “risk bands” in a capitated agreement meaning that greater deviance from the Performance Year Benchmark will move the capitated entity to the next risk band, resulting in a lower percentage of shared savings/losses for experience within the higher band. For example, a DCE in the Professional Option would experience 50% of savings and losses within 5% of the benchmark, but would be exposed to only 35% of losses more than 5% above the benchmark (up to 10%, where another band with still-lower exposure would begin.")
     st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/risk%20corridors.jpg', caption='Example of risk corridors in CMS Direct Contracting Source: Norris, 2020')
+ 
     st.subheader("Stop-loss arrangements/Reinsurance")
-    st.write("""These prospective arrangements help capitated groups manage risk associated with outlier expenditures by limiting capitated entities financial liability for beneficiary expenditures above a prospectively determined cutoff. Depending on the arrangement between organizations, these arrangements might limit but not eliminate the financial risk by sharing the responsibility of cost such as a percentage of expenditures above the cut off, as incentive to continue managing costs.""")
+    st.write("These prospective arrangements help capitated groups manage risk associated with outlier expenditures by limiting capitated entities financial liability for beneficiary expenditures above a prospectively determined cutoff. Depending on the arrangement between organizations, these arrangements might limit but not eliminate the financial risk by sharing the responsibility of cost such as a percentage of expenditures above the cut off, as incentive to continue managing costs.""")
 
     st.subheader("Unique payment arrangements in Medicaid/Mental Health")
     st.write("""A carve-out is a Medicaid managed care financing model where some portion of Medicaid benefits—dental services, pharmacy services, behavioral health services, etc. are separately managed and/or financed. For behavioral health benefits, the benefits are often broken down even further into specific service categories, including mental health outpatient services, psychiatric inpatient services, addiction treatment services, etc. There are two types of behavioral health carve-out models:""")
     st.write("""1. Primary carve-out: The payer (in this case Medicaid) excludes behavioral health services from the primary managed care contract. Behavioral health services are instead paid fee-forservice (FFS) by the state, managed by an administrative-services-only organization, or managed by a managed behavioral health organization (MBHO) in some type of capitated arrangement.""")
     st.write("""2. Secondary carve-out: The payer (Medicaid) contracts all with a managed care organization (MCO) to manage all benefits, including behavioral health. The MCO then sub-contracts with another organization (an MBHO) to manage behavioral health services. """)
-
 
 with ref_container:
     st.subheader("References")
