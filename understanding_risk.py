@@ -62,7 +62,7 @@ providers, more cash flow to invest in creating utilization management and quali
     st.subheader("Risk Corridors")
     st.write("""Risk corridors cap the shared savings/losses based on “risk bands” in a capitated agreement meaning that greater deviance from the Performance Year Benchmark will move the capitated entity to the next risk band, resulting in a lower percentage of shared savings/losses for experience within the higher band. For example, a DCE in the Professional Option would experience 50% of savings and losses within 5% of the benchmark, but would be exposed to only 35% of losses more than 5% above the benchmark (up to 10%, where another band with still-lower exposure would begin.""")
     st.image('https://raw.githubusercontent.com/mangospace/understanding_risk/main/risk%20corridors.jpg', caption='Example of risk corridors in CMS Direct Contracting Source: Norris, 2020')
-    st.subheader("Stop-loss arrangements")
+    st.subheader("Stop-loss arrangements/Reinsurance")
     st.write("""These prospective arrangements help capitated groups manage risk associated with outlier expenditures by limiting capitated entities financial liability for beneficiary expenditures above a prospectively determined cutoff. Depending on the arrangement between organizations, these arrangements might limit but not eliminate the financial risk by sharing the responsibility of cost such as a percentage of expenditures above the cut off, as incentive to continue managing costs.""")
 
 
