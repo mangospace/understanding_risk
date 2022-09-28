@@ -13,9 +13,6 @@ defs_container = st.container()
 main_container = st.container()
 ref_container = st.container()
 
-st.sidebar.header("""Managed Care Activities""")
-
-
 with header_container:
 	# for example a logo or a image that looks like a website header
 	# different levels of text you can include in your app
