@@ -17,7 +17,7 @@ with header_container:
 	# for example a logo or a image that looks like a website header
 	# different levels of text you can include in your app
     st.title("Understanding Clinical Risk in Value Based Arrangements")
-    st.subheader("I welcome comments, feedback and opportunity to learn more or collaborate. Tweet @manas8u")
+    st.write("I welcome comments, feedback and opportunity to learn more or collaborate. Tweet @manas8u")
 
 with main_container:
     st.subheader("What is risk?")
