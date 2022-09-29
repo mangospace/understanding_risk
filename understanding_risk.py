@@ -63,7 +63,7 @@ providers, more cash flow to invest in creating utilization management and quali
     st.write("These prospective arrangements help capitated groups manage risk associated with outlier expenditures by limiting capitated entities financial liability for beneficiary expenditures above a prospectively determined cutoff. Depending on the arrangement between organizations, these arrangements might limit but not eliminate the financial risk by sharing the responsibility of cost such as a percentage of expenditures above the cut off, as incentive to continue managing costs.""")
 
     st.subheader("Unique payment arrangements in Medicaid")
-    st.write("""Given the challenge of establishing stable primary care for Medicaid patients with multiple health, mental health and substance abuse issues, anecdotally, payors are capitating new organizations for 'high cost' individuals. New organizations who accept capitation for these members, can provide care for these patients themselves or coordinate care with non-affiliated PCPs acting like an administrative-services-only organization (which are found in Medicaid Mental Health carve outs.""")
+    st.write("""Given the challenge of establishing stable primary care for Medicaid patients with multiple health, mental health and substance abuse issues, anecdotally, payors are capitating new organizations for 'high cost' individuals. New organizations who accept capitation for these members, can provide care for these patients themselves or coordinate care with non-affiliated PCPs acting like an administrative-services-only organization (which are found in Medicaid Mental Health carve outs).""")
  
 with ref_container:
     st.subheader("References")
