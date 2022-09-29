@@ -62,11 +62,9 @@ providers, more cash flow to invest in creating utilization management and quali
     st.subheader("Stop-loss arrangements/Reinsurance")
     st.write("These prospective arrangements help capitated groups manage risk associated with outlier expenditures by limiting capitated entities financial liability for beneficiary expenditures above a prospectively determined cutoff. Depending on the arrangement between organizations, these arrangements might limit but not eliminate the financial risk by sharing the responsibility of cost such as a percentage of expenditures above the cut off, as incentive to continue managing costs.""")
 
-    st.subheader("Unique payment arrangements in Medicaid/Mental Health")
-    st.write("""A carve-out is a Medicaid managed care financing model where some portion of Medicaid benefits—dental services, pharmacy services, behavioral health services, etc. are separately managed and/or financed. For behavioral health benefits, the benefits are often broken down even further into specific service categories, including mental health outpatient services, psychiatric inpatient services, addiction treatment services, etc. Carve-outs developed to address rising inpatient behavioral health costs and limited insurance coverage. There are two types of behavioral health carve-out models:""")
-    st.write("""1. Primary carve-out: The payer (in this case Medicaid) excludes behavioral health services from the primary managed care contract. Behavioral health services are instead paid fee-forservice (FFS) by the state, managed by an administrative-services-only organization, or managed by a managed behavioral health organization (MBHO) in some type of capitated arrangement.""")
-    st.write("""2. Secondary carve-out: The payer (Medicaid) contracts all with a managed care organization (MCO) to manage all benefits, including behavioral health. The MCO then sub-contracts with another organization (an MBHO) to manage behavioral health services. """)
-
+    st.subheader("Unique payment arrangements in Medicaid")
+    st.write("""Given the challenge of establishing stable primary care for Medicaid patients with multiple health, mental health and substance abuse issues, anecdotally, payors are capitating new organizations for 'high cost' individuals. New organizations who accept capitation for these members, can provide care for these patients themselves or coordinate care with non-affiliated PCPs acting like an administrative-services-only organization (which are found in Medicaid Mental Health carve outs.""")
+ 
 with ref_container:
     st.subheader("References")
     st.write('Foote SM, Sprague L. Physician Organizations Assuming Risk: Market and Policy Implications Washington (DC): National Health Policy Forum; 1998 Nov 9.https://www.ncbi.nlm.nih.gov/books/NBK560461/')
@@ -79,5 +77,3 @@ with ref_container:
     st.write("Alexander JM Managed care contracting for specialists Healthc Financ Manage 1999;Suppl:6-10.")
     st.write("Norris C, Jensen B, Grzeskowiak D Direct Contracting: A program summary and comparison with MSSP and NGACO (2020) https://us.milliman.com/-/media/milliman/pdfs/articles/direct_contracting_a_program_summary_and_comparison_with_mssp_and_ngaco.ashx")
     st.write("Mechanic D, Aiken L. “Capitation in Mental Health: Potentials and Cautions.” In: Mechanic D, Aiken LH, editors. Paying for Services: Promises and Pitfalls of Capitation. San Francisco: Jossey-Bass Publishers; 1989.")
-    st.write("Open Minds Market Intelligence Report Which State Medicaid Plans CarveOut Behavioral Health Benefits? (2016) https://openminds.com/wp-content/uploads/indres/BH-Carve-outs-July-Updare-072816-alm.pdf")
-    st.write("Frank RG, Garfield RL Managed Behavioral Health Care Carve-Outs: Past Performance and Future Prospects Annu. Rev. Public Health 2007. 28:303–20 https://www.annualreviews.org/doi/pdf/10.1146/annurev.publhealth.28.021406.144029")
