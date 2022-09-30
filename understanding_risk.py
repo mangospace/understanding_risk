@@ -83,3 +83,5 @@ with ref_container:
     st.write("Mechanic D, Aiken L. “Capitation in Mental Health: Potentials and Cautions.” In: Mechanic D, Aiken LH, editors. Paying for Services: Promises and Pitfalls of Capitation. San Francisco: Jossey-Bass Publishers; 1989.")
     st.write("Open Minds Market Intelligence Report Which State Medicaid Plans CarveOut Behavioral Health Benefits? (2016) https://openminds.com/wp-content/uploads/indres/BH-Carve-outs-July-Updare-072816-alm.pdf")
     st.write("Frank RG, Garfield RL Managed Behavioral Health Care Carve-Outs: Past Performance and Future Prospects Annu. Rev. Public Health 2007. 28:303–20 https://www.annualreviews.org/doi/pdf/10.1146/annurev.publhealth.28.021406.144029")
+    st.write("Types of managed care arrangements https://www.macpac.gov/subtopic/types-of-managed-care-arrangements/")
+	
