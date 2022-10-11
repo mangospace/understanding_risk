@@ -85,4 +85,6 @@ with ref_container:
     st.write("Frank RG, Garfield RL Managed Behavioral Health Care Carve-Outs: Past Performance and Future Prospects Annu. Rev. Public Health 2007. 28:303–20 https://www.annualreviews.org/doi/pdf/10.1146/annurev.publhealth.28.021406.144029")
     st.write("Types of managed care arrangements https://www.macpac.gov/subtopic/types-of-managed-care-arrangements/")
     st.write("MACPAC Issues in Setting Medicaid Capitation Rates for Integrated Care Plans https://www.macpac.gov/wp-content/uploads/2013/03/Issues-in-Setting-Medicaid-Capitation-Rates-for-Integrated-Care-Plans.pdf")
+    st.write("CAPG’s Guide to Alternative Payment Models: Case Studies of Risk-Based Coordinated Care: A CAPG white paper (2016) https://www.pcpcc.org/sites/default/files/resources/APMGuideFinal.pdf")
 
+	
